@@ -2,7 +2,6 @@
 
 **Aim**
 
-
 To compare air quality parameters in Delhi across different stations and analyze the relationship between pollutants (e.g., PM2.5 and NO₂) using scatter plots and correlation analysis.
 
 
@@ -28,6 +27,7 @@ To compare air quality parameters in Delhi across different stations and analyze
 **Program**
 
 Name : Tejasree.K
+
 Reg no:212224240168
 
 ```
@@ -115,7 +115,33 @@ print(top5_days)
 
 1)PM2.5 and NO₂ show a strong positive correlation, suggesting that both pollutants increase together, likely due to vehicle and industrial emissions.
 
-2)  # write other insights
+PM2.5 and NO₂ show a strong positive correlation, suggesting that both pollutants tend to increase simultaneously. This relationship indicates that they likely share common emission sources, such as vehicle exhausts, industrial combustion, and fossil fuel burning. High NO₂ levels usually result from traffic congestion and industrial activities, which also release fine particulate matter (PM2.5). Therefore, areas or periods with elevated NO₂ often experience high PM2.5 concentrations as well. This correlation highlights the need for integrated air-quality control measures—reducing vehicular and industrial emissions can effectively lower both pollutants, leading to significant improvements in urban air quality and public health.
+
+2) write other insights
+
+Seasonal Trends
+
+PM2.5 concentrations are significantly higher during winter months, especially from November to January, compared to summer and monsoon seasons. The increase in winter is likely due to temperature inversion, reduced wind speed, and higher fuel consumption for heating. These conditions trap pollutants close to the ground, worsening air quality. In contrast, rainfall and strong winds during the monsoon help to disperse or wash out particulate matter, leading to cleaner air.
+
+Daily (Hourly) Variation
+
+The hourly analysis shows that PM2.5 levels typically peak during morning (7–10 AM) and evening (7–10 PM) hours. This pattern corresponds to rush-hour traffic emissions and lower atmospheric mixing during cooler parts of the day. During midday, sunlight and thermal mixing help disperse pollutants, leading to lower concentrations.
+
+ WHO Limit Exceedance
+
+A significant proportion of days exceed the WHO safe limit of 25 µg/m³ for PM2.5. This means that residents are frequently exposed to unsafe air quality, which increases the risk of respiratory diseases, cardiovascular issues, and long-term lung damage. Continuous exceedance also points to the need for stricter emission regulations and urban air-quality management policies.
+
+Monthly Averages
+
+Monthly average PM2.5 analysis shows clear seasonal cycles — values gradually rise from autumn to winter, then fall sharply after the onset of the monsoon. This consistent pattern suggests that seasonal meteorology plays a major role in pollutant accumulation and dispersion, beyond emission sources alone.
+
+ Top Polluted Days
+
+The top five most polluted days show extremely high PM2.5 concentrations, often linked to specific events such as festivals (e.g., Diwali fireworks), crop residue burning, or temperature inversion episodes. These events cause temporary but severe degradation of air quality, posing acute health risks.
+
+ Public Health Implication
+
+Overall, the data indicates that both short-term spikes (daily/hourly) and long-term seasonal buildup of pollutants can severely affect population health. Strategies such as reducing vehicular emissions, controlling industrial discharge, and public awareness campaigns during high-pollution periods are crucial to mitigate exposure risks.
 
 **Result**
 
